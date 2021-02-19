@@ -1,0 +1,1010 @@
+
+/*================================================================================*/
+/*================================================================================*/
+/*==================================== HOME ======================================*/
+/*================================================================================*/
+/*================================================================================*/
+
+body {
+    background: rgb(151, 1, 1);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav{
+    display: none;
+  }
+
+  .topnav {
+    display: flex;
+    overflow: hidden;
+    height: 48px;
+    background-color: #333;
+  }
+
+
+  .topnav img{
+      width: 35px;
+      margin-top: -3px;
+  }
+
+  .topnav-content{
+      margin-left: auto;
+      width: auto;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #aad4ab;
+    color: rgb(0, 0, 0);
+  }
+
+
+  .page1{
+      display: grid;
+  }
+
+
+  .img-home img{
+    height: 494px;
+  }
+
+  .home-box p{
+    font-family: 'Teko', sans-serif;
+    color:  white;
+    font-size: 28px;
+    padding: 20px;
+    margin-top: -110px;
+  
+  }
+
+
+
+  .reserve-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .reserve-button a{
+    width: 200px;
+    font-size: 17px;
+    padding: 20px 0px;
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;}
+
+  .reserve-button a:hover {
+    background-color:  rgb(43, 43, 43);
+  }
+
+  .cars-title{
+      margin-top: 60px;
+      background: #000000;
+      text-align: center;
+  }
+  .cars-title p{
+    font-family: 'Teko', sans-serif;
+    margin-top: 5px;
+    color:  white;
+    font-size: 50px;
+    padding-top: 20px;
+  }
+
+  .welcome p{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    margin-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .home-box {
+    display: grid;
+  }
+ 
+ 
+
+  .container {
+      display: flex;
+      margin-bottom: 30px;   
+  }
+  
+
+  .some-cars {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;     
+    margin-bottom: -20px;
+  }
+
+  .slide {
+    display: inline-block;  
+  }
+
+  /*-------------------------- hide de scrollbar ---------------------------------*/
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+/*------------------------------------------------------------------------------------*/
+    .some-cars img{
+        margin: 10px;
+        width: 600px;
+        height: 350px;
+    }
+
+  .footer-box {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+  }
+
+  .footer-content{
+      display: grid;
+  }
+
+
+  .media-icon{
+    display: flex;
+    margin-top: -25px;
+    margin-bottom: 10px;
+  }
+
+  .media-icon a{
+      margin: 10px;
+  }
+
+  .follow p{
+    font-family: 'Teko', sans-serif;
+    padding-left: 20px;
+    font-size: 30px;
+    float: left;
+    font: bold;
+    color: white;
+    margin-top: 15px;
+
+  }
+  
+
+
+  /*====================================================================================================*/
+  /*====================================================================================================*/
+  /*--------------------------------------------- gallery ----------------------------------------------*/
+  /*====================================================================================================*/
+  /*====================================================================================================*/
+  
+
+  .page2{
+    background-color: #ffffff;
+  }
+
+  .gallery{
+    width: 100%;
+  }
+
+  .cars-gallery p{
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    background: rgb(151, 1, 1);
+    margin-top: 0%;
+    color: rgb(255, 255, 255);
+  }
+  .vehicules{
+      margin-bottom: -90px;
+      justify-content: center;
+      margin-top: -60px;
+  }
+
+  .vehicules p{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+  }
+
+  .vehicules img{
+    display: flex;
+    width: 400px;
+    height: 250px;
+    padding: 30px;
+    text-align: center;
+  }
+
+
+.motos p{
+    background: black;
+    color: white;
+    padding-left: 20px;
+}
+.Sedan p{
+  background: black;
+  color: white;
+  padding-left: 20px;
+}
+.citadin p{
+  background: black;
+  color: white;
+  padding-left: 20px;
+}
+.Utilitaire p{
+  background: black;
+  color: white;
+  padding-left: 20px;
+}
+.Compact p{
+  background: black;
+  color: white;
+  padding-left: 20px;
+}
+.Camions p{
+  background: black;
+  color: white;
+  padding-left: 20px;
+}
+.Engin p{
+  background: black;
+  color: white;
+  padding-left: 20px;
+}
+
+
+
+.vehi-img {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;     
+  margin-bottom: -20px;
+}
+
+.Engin{
+  margin-bottom: 90px;
+}
+
+.slide2 {
+  display: inline-block;  
+}
+
+/*-------------------------- hide de scrollbar ---------------------------------*/
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+
+/*================================================================================*/
+/*================================================================================*/
+/*================================= Réservation ==================================*/
+/*================================================================================*/
+/*================================================================================*/
+
+.reservation-box p{
+  font-family: 'Teko', sans-serif;
+  font-size: 60px;
+  background: rgb(255, 255, 255);
+  margin-top: 0%;
+  color: black;
+  text-align: center;
+
+}
+
+
+.categorie img{
+  cursor: pointer;
+}
+
+.cat-img{
+  display: flex;
+  justify-content: center;
+}
+
+
+.container-reservation p{
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+
+.cat-img img{
+  margin: 20px;
+  height: 200px;
+}
+
+.categorie{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;     
+  margin-bottom: 50px;
+}
+.imageVehicule img{
+  height: 200px;
+  width: auto;
+}
+.choix-img{
+  display: inline-block;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+.choix-p p {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  background: none;
+  text-align: center;
+}
+
+
+
+
+/*-------------------------- hide de scrollbar ---------------------------------*/
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+
+.type-carburant p{
+  background: black;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.type-boite-vitesse p{
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+}
+
+.durée-réservation p{
+  background: black;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.radios{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+
+.btn {
+  font-size: 20px;
+  border: #81256c solid 2px;
+  padding: 7px 69px;
+  background-color: #000000;
+  border: rgb(255, 255, 255) solid 2px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0 auto ;
+  border-radius: 20px;
+}
+
+.btn:hover {
+   background-color: rgb(255, 255, 255);
+   border: rgb(0, 0, 0) solid 2px;
+   color: rgb(0, 0, 0);
+}
+
+
+.radios{
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+
+
+.box-choix{
+  text-align: center;
+}
+
+.facture{
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 47%;
+  height: 250px;
+  margin: 0 auto;
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+#facture label{
+  display: grid;
+  text-align: center;
+}
+
+
+
+/*================================================================================*/
+/*================================================================================*/
+/*=================================== contact ====================================*/
+/*================================================================================*/
+/*================================================================================*/
+
+.Contact-box p{
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    margin-top: 0%;
+    color: black;
+}
+
+.Contact-box{
+  text-align: center;
+  width: auto;
+}
+
+
+.contact-container{
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+#nom {
+  font-size: 20px;
+  border: #ffffff solid 2px;
+  padding: 7px 369px;
+  background-color: #ffffff;  
+  color: rgb(141, 135, 135);
+  border-radius: 20px;
+  text-align: center;
+}
+#prenom {
+  font-size: 20px;
+  border: #ffffff solid 2px;
+  padding: 7px 369px;
+  background-color: #ffffff;
+  color: rgb(141, 135, 135);
+  border-radius: 20px;
+  text-align: center;
+}
+
+#email{
+  font-size: 20px;
+  border: #ffffff solid 2px;
+  padding: 7px 369px;
+  background-color: #ffffff;
+  color: rgb(141, 135, 135);
+  border-radius: 20px;
+  text-align: center;
+}
+
+#sujet {
+  font-size: 20px;
+  border: #ffffff solid 2px;
+  padding: 7px 369px;
+  background-color: #ffffff;
+  color: rgb(141, 135, 135);
+  border-radius: 20px;
+  text-align: center;
+}
+
+#message {
+  font-size: 20px;
+  border: #ffffff solid 2px;
+  padding: 7px 369px;
+  background-color: #ffffff;
+  color: rgb(141, 135, 135);
+  justify-content: center;
+  border-radius: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+#erreurnom{
+  color: white;
+}
+#erreurprenom{
+  color: white;
+
+}
+#erreuremail{
+  color: white;
+}
+#erreursujet{
+  color: white;
+}
+#erreurmessage{
+  color: white;
+}
+
+
+
+
+
+ #send-btn {
+    font-size: 20px;
+    border: #81256c solid 2px;
+    padding: 7px 69px;
+    background-color: #81256c;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+ #send-btn:hover {
+     background-color: #fff;
+     border: #fff solid 2px;
+     color: #000;
+ }
+
+
+ #envoye{
+  background:#000000;
+  border-radius: 20px;
+  width: 47%;
+  height: 250px;
+  margin: 0 auto;
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  font-style: bold;
+  position: relative;
+  bottom: 390px;
+  display: none;
+  color:white;
+  text-align: center;
+  margin-top: 40px;
+}
+ .iconenav{
+  display: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================================================================*/
+/*================================================================================*/
+/*================================ Responsive ====================================*/
+/*================================================================================*/
+/*================================================================================*/
+
+  @media only screen and (max-width: 1200px){
+ 
+    .topnav{
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .nav{
+      display: none;
+    }
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 12px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+
+
+
+    .container{
+      display: grid;
+      width: 100%;
+      text-align: center;
+    }
+   
+    .container img{
+      height: 280px;
+    }
+
+
+    .slide img{
+      height: 230px;
+      width: auto;
+    }
+
+    .reserve-button a{
+      width: 150px;
+      font-size: 15px;
+      padding: 15px 0px;
+      margin-top: 10px;
+    }
+
+
+/*================================================================================*/
+/*================================ Gallery ====================================*/
+/*================================================================================*/
+
+
+    .cars-gallery p{
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .vehicules{
+      margin-bottom: -90px;
+        justify-content: center;
+        margin-top: -32px;
+    }
+
+    .gallery{
+      width: 100%;
+    }
+    
+
+    .vehicules p{
+      font-size: 45px;
+    }
+    .vehi-img img{
+      display: grid;
+      height: 150px;
+      width: auto;
+    }
+
+    .motos p{
+      padding-left: 10px;
+      font-size: 22px;
+    }
+    .Sedan p{
+      padding-left: 10px;
+      font-size: 20px;
+    }
+    .citadin p{
+      padding-left: 10px;
+      font-size: 22px;
+    }
+    .Utilitaire p{
+      padding-left: 10px;
+      font-size: 22px;
+    }
+    .Compact p{
+      padding-left: 10px;
+      font-size: 22px;
+    }
+    .Camions p{
+      padding-left: 10px;
+      font-size: 22px;
+    }
+    .Engin p{
+      padding-left: 10px;
+      font-size: 22px;
+    }
+
+
+    /*================================================================================*/
+/*================================ contact ====================================*/
+/*================================================================================*/
+    #nom {
+      font-size: 20px;
+      padding: 7px 199px;
+      width: 250px;
+      text-align: center;
+    }
+    #prenom {
+      font-size: 20px;
+      padding: 7px 199px;
+      width: 250px;
+      text-align: center;
+    }
+    
+    #email{
+      font-size: 20px;
+      padding: 7px 199px;
+      width: 250px;
+      text-align: center;
+    }
+    
+    #sujet {
+      font-size: 20px;
+      padding: 7px 199px;
+      width: 250px;
+      text-align: center;
+    }
+    
+    #message {
+      font-size: 20px;
+      padding: 7px 199px;
+      width: 250px;
+      text-align: center;
+    }
+
+    
+  }
+
+/*================================================================================*/
+/*================================================================================*/
+  @media only screen and (max-width: 800px){ 
+
+    .topnav{
+      width: 100%;
+    }
+    .topnav-content{
+      margin-left: auto;
+    }
+
+    /*================= nav icon =================*/
+    .iconenav{
+      display: block;
+      cursor: pointer;
+      margin-top: -3px;
+      margin-right: 10px;
+    }
+    .topnav-content{
+      margin-left: auto;
+    }
+
+    .topnav-content{
+      display: none;
+    }
+
+    #nav{
+      height: 120px;
+      color: #ffffff;
+      background-color: #333;   
+      padding: 0px 20px;
+      font-size: 20px;
+      justify-content: center;
+      display: none;
+    }
+
+    #nav a{
+      color: #ffffff;
+      text-decoration: none;
+      display: grid;
+      
+    }
+
+    /*================================================*/
+  
+    .iconenav{
+      float: right;
+      height: 50px;
+      width: auto;
+      margin-top: -3px;
+    }
+      
+/*================================================================================*/
+/*================================ Home ====================================*/
+/*================================================================================*/
+
+    .container{
+      display: grid;
+      width: 100%;
+      text-align: center;
+    }
+   
+    .container img{
+      height: 150px;
+    }
+
+    .welcome p{
+      margin-top: -10px;
+      margin-bottom: 110px;
+      font-size: 50px;
+    }
+  
+
+    .cars-title p{
+      font-size: 30px;
+    }
+
+    .slide img{
+      height: 200px;
+      width: auto;
+    }
+
+    .reserve-button a{
+      width: 150px;
+      font-size: 15px;
+      padding: 12px 0px;
+      margin-top: 10px;
+    }
+
+/*================================================================================*/
+/*================================ Gallery ====================================*/
+/*================================================================================*/
+
+    .cars-gallery p{
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .gallery{
+      width: 100%;
+    }
+    
+   
+    .vehicules p{
+      font-size: 35px;
+    }
+    .vehi-img img{
+      display: grid;
+      height: 100px;
+      width: auto;
+    }
+
+    
+  
+
+    .motos p{
+      padding-left: 20px;
+      font-size: 22px;
+    }
+    .Sedan p{
+      padding-left: 20px;
+      font-size: 22px;
+    }
+    .citadin p{
+      padding-left: 20px;
+      font-size: 22px;
+    }
+    .Utilitaire p{
+      padding-left: 20px;
+      font-size: 22px;
+    }
+    .Compact p{
+      padding-left: 20px;
+      font-size: 22px;
+    }
+    .Camions p{
+      padding-left: 20px;
+      font-size: 22px;
+    }
+    .Engin p{
+      padding-left: 20px;
+      font-size: 22px;
+    }
+
+   
+
+/*================================================================================*/
+/*================================ Reservation ====================================*/
+/*================================================================================*/
+
+    .cat-img img{
+      height: 150px;
+      width: auto;
+    }
+
+    .reservation-box p{
+      text-align: center;
+      font-size: 30px;
+    }
+    
+    .reservation p{
+      font-size: 22px;
+    }
+
+    .box-choix p{
+      font-size: 22px;
+    }
+
+    .radios{
+      font-size: 24px;
+    }
+
+    .btn {
+      font-size: 16px;
+      padding: 7px 29px;
+      margin: 0 auto ;
+    }
+
+    .btn2{
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+    
+    #facture label{
+      display: grid;
+    }
+
+    
+    .facture{
+      text-align: center;
+      background-color: #ffffff;
+      border-radius: 20px;
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+      font-family: 'Teko', sans-serif;
+      font-size: 25px;
+      margin-bottom: 48px;
+    }
+
+
+    /*================================================================================*/
+    /*================================ Contact ====================================*/
+    /*================================================================================*/
+
+ 
+    .form{
+      margin: 0 auto;
+      position: relative;
+    
+    }
+    .send-btn{
+      position: relative;
+      left: -25px;
+    }
+
+    #nom {
+      font-size: 20px;
+      padding: 7px 0px;
+      margin: 0 auto;
+    }
+    #prenom {
+      font-size: 20px;
+      padding: 7px 0px;
+      text-align: center;
+    }
+    
+    #email{
+      font-size: 20px;
+      padding: 7px 0px;
+      
+      text-align: center;
+    }
+    
+    #sujet {
+      font-size: 20px;
+      padding: 7px 0px;
+      
+      text-align: center;
+    }
+    
+    #message {
+      font-size: 20px;
+      padding: 7px 0%;
+     
+      text-align: center;
+    }
+    #envoye{
+      width: 50%;
+      height: 200px;
+      font-size: 22px;
+      bottom: 370px;
+      margin-top: 40px;
+    }
+    
+  }

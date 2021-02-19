@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Teko&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+  <!--JavaScript-->
+  <script type="text/javascript" src="all.js"></script>
+
+</head>
+<body>
+
+
+    <header>
+
+
+        <div class="topnav">
+            
+            <div class="logo"> 
+                <a href="index.html"><img src="images/yb.png" alt="#"></a> 
+            </div>
+
+            <div class="topnav-content">
+                <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+                <a href="gallery.html"><i class="fa fa-film"></i> Gallerie</a> 
+                <a class="active" href="reservation.html"><i class="fa fa-calendar"></i> Réservation</a> 
+                <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+            </div>
+
+            <img src="images/nav-icon.png" class="iconenav" alt="barssolid" onclick="nav()">
+ 
+        </div>
+
+    </header>
+
+    <div class="nav" id="nav">
+        <a href="index.html"> Home</a> 
+        <a href="gallery.html">Gallerie</a> 
+        <a class="active" href="reservation.html">Réservation</a> 
+        <a href="contact.html"></i> Contact</a>    
+    </div>
+
+    <div class="page3">
+
+            
+        <div class="reservation-box">
+            <p> Réservation </p>
+
+            
+            <div class="reservation">
+                    <div class="container-reservation">
+                        <p> Our Category</p>
+
+                        <form>
+                            <div class="categorie">
+                                
+                                <div class="cat-img">
+                                    <img class="choix-img" src="images/moto.png"  alt="moto" id="moto" onclick="option(this)" /> 
+                                    <img class="choix-img" src="images/citadine.png" alt="compact" id="compact" onclick="option(this)" />   
+                                    <img class="choix-img" src="images/captur.png" id="citadin" onclick="option(this)" /> 
+                                    <img class="choix-img" src="images/sedan.png" id="sedanberlin" onclick="option(this)" /> 
+                                    <img class="choix-img" src="images/utilitaire.png" alt="utilitaire" id="utilitaire" onclick="option(this)" />   
+                                    <img class="choix-img" src="images/camion1.png" alt="camion" id="camion" onclick="option(this)" />
+                                    <img class="choix-img" src="images/engin.png" alt="engin" id="engin" onclick="option(this)" />              
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="choix-p">
+                            <p> Choose One </p>
+                        </div>
+                        
+                    </div>    
+            </div>
+
+
+
+                <!--========================== choix ==================================-->
+                
+            <div class="box-choix">
+
+                <div class="type-carburant">
+                    <p>type du carburant</p>
+                    <div class="radios">
+                        <div class="flex" id="essencezone">
+                            <input type="radio" name="radioc" id="essence" />
+                            <label for="essence">essence</label>
+                        </div>
+                        <div class="flex" id="dieselzone">
+                            <input type="radio" name="radioc" id="diesel" />
+                            <label for="diesel">diesel</label>
+                        </div>
+                        <div class="flex" id="electriquezone">
+                            <input type="radio" name="radioc" id="electrique" />
+                            <label for="electrique">electrique</label>
+                        </div>
+                        <div class="flex" id="hybridezone">
+                            <input type="radio" name="radioc" id="hybride" />
+                            <label for="hybride">hybride</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="type-boite-vitesse" id="boiteVitesse">
+                    <p>type de boite à vitesse</p>
+                    <div class="radios">
+                        <div class="flex" id="manuelle">
+                            <input type="radio" name="radio" id="radio1" />
+                            <label for="radio1">manuelle</label>
+                        </div>
+                        <div class="flex" id="automatique">
+                            <input type="radio" name="radio" id="radio2" />
+                            <label for="radio2">automatique</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="durée-réservation">
+                    <p>durée de réservation</p>
+                    <div class="radios">
+                        <div class="flex">
+                            <label for="jour">(en jours) : </label>
+                            <input type="text"  id="jour" />
+                        </div>
+                    </div>
+                    <input type="button" value="Estimation" class="btn" onclick="estimation()">
+                </div>
+            
+            </div>
+
+
+               </div> 
+                
+
+
+            <!--=====================facture===========================-->
+            <div class="facture" id="facture">
+                <h4>Facture</h4>
+                <div class="devi">
+                    <div class="ligne">
+                        <label class="c1" id="typeVehicule">type du véhicule : </label>
+                        <label id="typeCarburant">type du carburant : </label>
+                    </div>
+                    <div class="ligne">
+                        <label id="labelvitesse">type de boite à vitesse : </label>
+                        <label id="dureReservation" >durée de réservation: </label>
+                    </div>
+                    <div class="ligne">
+                        <label id="totale">Le prix a payer : </label>
+                    </div>
+                    <div class="ligne">
+                        <input type="button" value="Reserver" class="btn2" onclick="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+            
+
+    </div>
+
+
+
+</body>
+
+
+<footer>
+    <div class="footer-box">
+        <div class="footer-content">
+
+            <div class="follow">
+                <p>Follow Us</p>
+            </div>
+
+            <div class="media-icon">
+                <a href="#"><img src="images/facebook.png"></a>
+                <a href="#"><img src="images/instagram.png"></a>
+                <a href="#"><img src="images/linkedin.png"></a>
+                <a href="#"><img src="images/Twitter.png"></a>
+             </div>
+        </div>    
+     </div>
+</footer>
+</html>
