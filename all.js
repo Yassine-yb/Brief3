@@ -12,7 +12,7 @@ function valider(){
     var emailValide = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var sujet=document.getElementById("sujet");
     var message=document.getElementById("message");
-    var messagevalide = /^[\w\s\S\r\t]{100,}/; 
+    var messagevalide = /^[\w\s\S\r\t]{20,}/; 
     var c=0;
 
 
@@ -26,6 +26,8 @@ function valider(){
         c++;
     }else{
         var t1=0;
+        document.getElementById('erreurnom').innerText="";
+        message.style.border="none";
     }
 
 
@@ -39,6 +41,8 @@ function valider(){
         c++;
     }else{
         var t2=0;
+        document.getElementById('erreurprenom').innerText="";
+        message.style.border="none";
     }
 
 
@@ -52,6 +56,8 @@ function valider(){
         c++;
     }else{
         var t3=0;
+        document.getElementById('erreuremail').innerText="";
+        message.style.border="none";
     }
 
 
@@ -64,6 +70,8 @@ function valider(){
         c++;
     }else{
         var t4=0;
+        document.getElementById('erreursujet').innerText="";
+        message.style.border="none";
     }
 
 
@@ -71,12 +79,13 @@ function valider(){
         document.getElementById("erreurmessage").innerHTML="s'il vous plait ecrire un message";
         c++;
     }else if(messagevalide.test(message.value)==false){
-        document.getElementById("erreurmessage").innerHTML="Votre message doit contenir au moins 100 caractères";
+        document.getElementById("erreurmessage").innerHTML="Votre message doit contenir au moins 20 caractères";
         c++;
     }else{
         var t5=0;
-         document.getElementById('erreurmessage').innerText="";
-         message.style.border="none";
+        document.getElementById('erreurmessage').innerText="";
+        message.style.border="none";
+
     }if(t1==0 && t2==0 && t3==0 && t4==0 && t5==0){
          document.getElementById('envoye').style.display="block";
          document.getElementById('erreurnom').style.display="none";
