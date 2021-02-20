@@ -6,13 +6,13 @@
 
 function valider(){
     var nom=document.getElementById("nom");
-    var caractereValide=/^[a-zA-Z]+?$/;
+    var caractereValide=/^[a-zA-Z- -]+?$/;
     var prenom=document.getElementById("prenom");
     var email=document.getElementById("email"); 
     var emailValide = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var sujet=document.getElementById("sujet");
     var message=document.getElementById("message");
-    var messagevalide = /^[\w\s\S\r\t]{20,}/; 
+    var messagevalide = /^[\w\s\S\r\t\ -]{20,}/; 
     var c=0;
 
 
